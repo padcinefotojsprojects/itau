@@ -3,12 +3,12 @@
 /*
  * Motor esférico 360° próprio.
  * Dependências externas: nenhuma. Renderização: WebGL 1.0 nativo.
- * Imagem padrão: ./itau.png (equiretangular, proporção 2:1).
+ * Imagem padrão: ./image/itau.png (equiretangular, proporção 2:1).
  * Opcional: window.TOUR_CONFIG antes de engine.js, com { image: 'caminho.jpg' }.
  */
 (() => {
   const CONFIG = Object.assign({
-    image: './itau.png',
+    image: './image/itau.png',
     sphereSegments: 96,
     sphereRings: 48,
     initialYaw: 0,
